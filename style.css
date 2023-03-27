@@ -1,0 +1,165 @@
+body {
+	font-size: 14px;
+	line-height: 1.8; /* unitless line-height value on body fixes inheritence issues */
+	margin: 0px;
+	min-width: 790px;
+  background-color: darkgreen;
+  color: white
+}
+.background {
+  background-color: darkgreen;
+  color: white;
+}
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #faa61a;
+}
+h1 {
+	font-size: 2em;
+	margin: 2.2em 0 .1em 0;
+	line-height: 1.3em;
+	font-weight: 200;
+}
+h2 {
+	font-size: .9em;
+	line-height: 1.9em;
+	color: #a2a50d;
+	margin: 0;
+	margin-bottom: .6em;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+p {
+	font-size: 1em;
+	line-height: 1.9em;
+	margin: 0;
+	margin-bottom: .7em;
+	text-align: left;
+}
+.contentWrapper {
+	width: 750px;
+	padding: 0 20px;
+	margin: 0 auto;
+	position: relative;
+}
+header {
+	font-size: .9em;
+	color: #fff;
+	background: #45392D url(../img/camera.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+header .contentWrapper {
+	padding: 115px 0 50px;
+}
+header a {
+	color: #fff;
+}
+header a:hover {
+	color: #faa61a;
+}
+#fronionLogo {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+footer {
+	font-size: .7em;
+	text-transform: uppercase;
+	margin: 50px auto;
+	color: #999;
+}
+#signUp {
+	margin-top: 10px;
+	padding: 0 20px 15px 20px;
+	border: 1px solid #bbb;
+}
+#signUp legend {
+	font-size: 2em;
+	font-weight: 200;
+	padding: 0 .2em;
+}
+#signUp label {
+	display: block;
+	padding-top: 1em;
+}
+#signUp label:first-of-type {
+	margin-top: -.9em;
+}
+#nameLabel {
+	margin-top: -1em;
+}
+#submit, #clearCookie {
+	display: block;
+	font-size: 1em;
+	color: #FFF;
+	text-transform: uppercase;
+	background: #a2a50d;
+	padding: .8em 1em .7em;
+	border: 0;
+	border-bottom: 3px solid #7d820c;
+	margin-top: 15px;
+}
+.textfield {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	padding: 7px;
+	background: #efefef;
+	border: 1px solid #bbb;
+	width: 97%;
+}
+.textfield:focus {
+	background: #FBF8D2;
+}
+.text {
+  font-size: 1.5em;
+  font-family: Times New Roman;
+	line-height: 1.9em;
+	color: #a2a50d;
+	margin: 5px;
+	margin-bottom: .6em;
+	text-transform: uppercase;
+	font-weight: normal;
+  text-align: center;
+  border-style: solid;
+  border-color: #44bb44
+  
+}
+.title {
+  font-size: 3em;
+	margin: 2.2em 0 .1em 0;
+	line-height: 1.3em;
+	font-weight: 200;
+  text-align: center;
+  border-style: dashed;
+  font-family: Lucida Handwriting;
+}
+.prize {
+  font-size: 2.3em;
+	line-height: 1.9em;
+	color: #a2a50d;
+	margin: 0;
+	margin-bottom: .6em;
+	text-transform: uppercase;
+	font-weight: normal;
+  text-align: center;
+}
+.footertext {
+  text-align: center;
+  font-size: 1.5em;
+	line-height: 1.9em;
+	color: #a2a50d;
+	margin: 0;
+	margin-bottom: .6em;
+}
+#footerbackground {
+  background-color: #084908
+}
